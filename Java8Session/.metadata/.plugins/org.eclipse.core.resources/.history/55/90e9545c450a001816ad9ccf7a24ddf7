@@ -1,0 +1,13 @@
+package com.kpit.example5;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+	
+		String name = "Sachin Gupta";
+		
+		
+		
+	}	
+
+}

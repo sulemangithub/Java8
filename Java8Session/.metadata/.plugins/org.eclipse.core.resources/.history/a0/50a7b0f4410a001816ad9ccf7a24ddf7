@@ -1,0 +1,15 @@
+package com.kpit.example3;
+
+public class Tester1 {
+	
+	public static void main(String[] args) {
+		
+		Sample s = new Tester1() :: demo;
+		s.display();		
+	}
+		
+	public void demo()
+	{
+		System.out.println("I am inside a method....");		
+	}
+}

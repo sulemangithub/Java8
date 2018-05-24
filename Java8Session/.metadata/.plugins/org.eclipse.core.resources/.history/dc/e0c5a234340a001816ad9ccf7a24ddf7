@@ -1,0 +1,20 @@
+package com.kpit.example1;
+
+public class Tester1 {
+
+	public static void main(String[] args) {
+		
+		Sample s = new SampleImpl();
+		s.display();	
+		
+		s = new Sample()
+				{
+					@Override
+					public void display() {
+						// TODO Auto-generated method stub
+					}
+				};
+				
+		
+	}	
+}

@@ -1,0 +1,15 @@
+package com.kpit.example4;
+
+public class Account {
+
+	public double withdraw(int acno,double amount)
+	{
+		return 100;		
+	}
+	
+	public double deposit(int acno,double amount)
+	{
+		return 100;		
+	}	
+	
+}

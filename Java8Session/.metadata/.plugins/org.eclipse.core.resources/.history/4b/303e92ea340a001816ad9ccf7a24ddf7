@@ -1,0 +1,11 @@
+package com.kpit.example2;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		
+		Sample addition = (n1,n2)-> System.out.println("Addition is : "+(n1+n2));
+		
+	}
+	
+}

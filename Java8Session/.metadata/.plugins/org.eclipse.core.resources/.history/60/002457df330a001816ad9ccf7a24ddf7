@@ -1,0 +1,7 @@
+package com.kpit.example1;
+
+@FunctionalInterface
+public interface Sample {
+	void show();
+	void display();
+}

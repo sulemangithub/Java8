@@ -1,0 +1,19 @@
+package com.kpit.example2;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		
+		Sample addition = (n1,n2)-> {return n1+n2;};
+		
+		Sample substraction = (n1,n2)-> System.out.println("Substraction is : "+(n1-n2));
+		Sample multiplication = (n1,n2)-> System.out.println("Multiplication is : "+(n1*n2));
+		Sample division = (n1,n2)-> System.out.println("Division is : "+(n1/n2));
+		
+		addition.operation(23, 12);
+		substraction.operation(56, 23);
+		multiplication.operation(34, 2);
+		division.operation(56, 12);		
+	}
+	
+}

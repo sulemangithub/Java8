@@ -1,0 +1,13 @@
+package com.kpit.example1;
+
+public class Account {
+	int acno;
+	String name;
+	double balance;
+	
+	public Account() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

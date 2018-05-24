@@ -1,0 +1,11 @@
+package com.kpit.example2;
+
+@NamedQueries({
+	@NamedQuery()
+	@NamedQuery()
+	@NamedQuery()	
+})
+
+public class Tester {
+
+}

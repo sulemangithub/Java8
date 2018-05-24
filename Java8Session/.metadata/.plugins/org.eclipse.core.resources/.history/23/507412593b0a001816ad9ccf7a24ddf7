@@ -1,0 +1,13 @@
+package com.kpit.example1;
+
+import java.util.List;
+
+public interface IAccount {
+
+	boolean addAccount(Account account);
+	boolean removeAccount(int acno);
+	boolean updateAccount(Account account);
+	Account getAccount(int acno);
+	List<Account> getAllAccounts();
+	
+}

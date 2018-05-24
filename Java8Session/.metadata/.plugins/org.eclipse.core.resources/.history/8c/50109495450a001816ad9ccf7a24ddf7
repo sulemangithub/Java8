@@ -1,0 +1,16 @@
+package com.kpit.example5;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+	
+		String name = getName();
+		System.out.println("Name is "+name +" & length is "+name.length());
+		
+	}
+
+	public static String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}	
+}

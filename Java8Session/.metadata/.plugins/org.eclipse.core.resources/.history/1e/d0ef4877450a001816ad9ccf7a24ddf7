@@ -1,0 +1,11 @@
+package com.kpit.example5;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+	
+		String name = "Sachin Gupta";
+		System.out.println("Name is "+name +" & length is "+name.length());	
+		
+	}	
+}

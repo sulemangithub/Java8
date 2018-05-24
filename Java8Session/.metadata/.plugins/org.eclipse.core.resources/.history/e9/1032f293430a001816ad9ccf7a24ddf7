@@ -1,0 +1,22 @@
+package com.kpit.example4;
+
+import java.lang.reflect.Method;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		
+		Class c = Account.class;
+		
+		Method [] methods = c.getMethods();
+		
+		for(Method method : methods)
+		{
+			System.out.println("Method name : "+method.getName());
+		}
+		
+		
+		
+	}
+
+}

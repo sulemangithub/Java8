@@ -1,0 +1,15 @@
+package com.kpit.example1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DBUtils {
+	
+	static List<Account> accounts = new ArrayList<>();
+	
+	static
+	{
+		
+	}
+
+}

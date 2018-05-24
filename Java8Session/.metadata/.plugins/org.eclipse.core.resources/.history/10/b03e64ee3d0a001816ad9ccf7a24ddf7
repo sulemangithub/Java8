@@ -1,0 +1,12 @@
+package com.kpit.example1;
+
+public class Tester {
+
+	public static void main(String[] args) {
+	
+		IAccount account = new AccountImpl();
+		account.addAccount(null);
+		
+		
+	}	
+}

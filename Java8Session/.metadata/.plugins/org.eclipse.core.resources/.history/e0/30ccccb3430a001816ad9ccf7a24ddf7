@@ -1,0 +1,27 @@
+package com.kpit.example4;
+
+import java.lang.reflect.Method;
+import java.lang.reflect.Parameter;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		
+		Class c = Account.class;
+		
+		Method [] methods = c.getDeclaredMethods();
+		
+		for(Method method : methods)
+		{
+			System.out.println("Method name : "+method.getName());
+			
+			Parameter params[] = method.getParameters(); 
+			
+			
+		}
+		
+		
+		
+	}
+
+}

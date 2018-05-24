@@ -1,0 +1,18 @@
+package com.kpit.example1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DBUtils {
+	
+	static List<Account> accounts = new ArrayList<>();
+	
+	static
+	{
+		accounts.add(new Account(121,"A",5000));
+		accounts.add(new Account(122,"B",6000));
+		accounts.add(new Account(123,"C",7000));
+		accounts.add(new Account(124,"E",8000));
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.kpit.example5;
+
+import java.util.Optional;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+	
+		String name = getName();
+		
+		Optional<String> optional = Optional.ofNullable(name);
+		
+		System.out.println("Is name present : "+optional.isPresent());
+		System.out.println(optional.get());
+		
+		if(optional.isPresent())
+		{
+			System.out.println(optional.map(value->value.toUpperCase()).get());
+		}
+		
+		
+		
+		
+		
+		//System.out.println("Name is "+name +" & length is "+name.length());
+		
+	}
+
+	public static String getName() {
+		// TODO Auto-generated method stub
+		return "Sachin Sharma";
+	}	
+}
